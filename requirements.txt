@@ -5,4 +5,4 @@ pylint
 pytest
 locust
 joblib
-python==3.7
+python==3.7.13
