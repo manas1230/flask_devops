@@ -50,7 +50,7 @@ def predict():
     result looks like:
     { "prediction": [ 20.35373177134412 ] }
     """
-   '''
+   """
     try:
         clf = joblib.load("boston_housing_prediction.joblib")
     except:
@@ -65,7 +65,7 @@ def predict():
     scaled_payload = scale(inference_payload)
     prediction = list(clf.predict(scaled_payload))
     return jsonify({'prediction': prediction})
-   '''
+   """
    try:
         clf = joblib.load("boston_housing_prediction.joblib") 
         clf=clf[0][0]
