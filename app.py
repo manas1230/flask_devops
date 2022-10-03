@@ -52,17 +52,18 @@ def predict():
     """
    
     try:
-        clf = joblib.load("boston_housing_prediction.joblib") 
-        clf=clf[0][0]
-        json_payload = request.json
-        LOG.info("JSON payload: %s json_payload")
-        inference_payload = pd.DataFrame(json_payload)
-        LOG.info("inference payload DataFrame: %s inference_payload")
-        scaled_payload = scale(inference_payload)
-        prediction = list(clf.predict(scaled_payload))
-        return jsonify({'prediction': prediction})
+        clf = joblib.load("boston_housing_prediction.joblib")
     except:
         LOG.info("JSON payload: %s json_payload")
-        return "Modelnotloaded"
+        return "Model not loaded"
+    
+    clf=clf[0][0]
+    json_payload = request.json
+    LOG.info("JSON payload: %s json_payload")
+    inference_payload = pd.DataFrame(json_payload)
+    LOG.info("inference payload DataFrame: %s inference_payload")
+    scaled_payload = scale(inference_payload)
+    prediction = list(clf.predict(scaled_payload))
+    return jsonify({'prediction': prediction})
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)
