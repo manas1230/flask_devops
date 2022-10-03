@@ -56,7 +56,7 @@ def predict():
     except:
         LOG.info("JSON payload: %s json_payload")
         return "Model not loaded"
-
+    clf=clf[0][0]
     json_payload = request.json
     LOG.info("JSON payload: %s json_payload")
     inference_payload = pd.DataFrame(json_payload)
