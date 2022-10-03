@@ -51,7 +51,7 @@ def predict():
     { "prediction": [ 20.35373177134412 ] }
     """
    
-   try:
+    try:
         clf = joblib.load("boston_housing_prediction.joblib") 
         clf=clf[0][0]
         json_payload = request.json
@@ -61,7 +61,7 @@ def predict():
         scaled_payload = scale(inference_payload)
         prediction = list(clf.predict(scaled_payload))
         return jsonify({'prediction': prediction})
-   except:
+    except:
         LOG.info("JSON payload: %s json_payload")
         return "Modelnotloaded"
 if __name__ == "__main__":
