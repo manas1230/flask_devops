@@ -1,6 +1,7 @@
-Flask
+flask
 pandas
 scikit-learn
 pylint
 pytest
 locust
+joblib
