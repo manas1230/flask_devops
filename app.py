@@ -3,7 +3,7 @@ from flask.logging import create_logger
 import logging
 
 import pandas as pd
-from sklearn.externals import joblib
+import joblib
 from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
@@ -56,6 +56,7 @@ def predict():
     except:
         LOG.info("JSON payload: %s json_payload")
         return "Model not loaded"
+    
     clf=clf[0][0]
     json_payload = request.json
     LOG.info("JSON payload: %s json_payload")
