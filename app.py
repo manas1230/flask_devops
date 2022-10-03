@@ -14,7 +14,7 @@ def scale(payload):
     """Scales Payload"""
 
     LOG.info("Scaling Payload: %s payload")
-    scaler = StandardScaler(with _mean=False).fit(payload)
+    scaler = StandardScaler.fit(payload)
     scaled_adhoc_predict = scaler.transform(payload)
     return scaled_adhoc_predict
 
