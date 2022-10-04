@@ -63,7 +63,6 @@ def predict():
     inference_payload = pd.DataFrame(json_payload)
     LOG.info("inference payload DataFrame: %s inference_payload")
     scaled_payload = scale(inference_payload)
-    prediction = [int(x) for x in prediction]
     prediction = list(clf.predict(scaled_payload))
     return jsonify({'prediction': prediction})
 if __name__ == "__main__":
