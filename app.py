@@ -4,6 +4,7 @@ import logging
 
 import pandas as pd
 import joblib
+from sklearn.ensemble import gradient_boosting
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.preprocessing import StandardScaler
