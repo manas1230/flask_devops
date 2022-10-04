@@ -1,5 +1,5 @@
 setup:
-	python3 -m venv ~/.flask_devops
+	python3 -m venv ~/.flask
 
 install:
 	pip install --upgrade pip &&\
