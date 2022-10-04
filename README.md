@@ -26,8 +26,7 @@ A Linux virtual machine was created to be the agent to handle the deployment in 
 
 The Azure pipelines uses a self hosted feature by making use of the git repo to automatically build the YAML file. This YAML file/script builds and deploys the app into our webapp.
 
-A successfull prediction is shown below
-![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/prediction.jpg)
+
 
 I have also run locust load tests with 10 users
 ![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/locust.JPG)
