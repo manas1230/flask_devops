@@ -52,7 +52,7 @@ def predict():
     """
    
     try:
-        clf = pickle.load("boston_housing_prediction.joblib")
+        clf = joblib.load("boston_housing_prediction.joblib")
     except:
         LOG.info("JSON payload: %s json_payload")
         return "Model not loaded"
@@ -64,7 +64,6 @@ def predict():
     LOG.info("inference payload DataFrame: %s inference_payload")
     scaled_payload = scale(inference_payload)
     prediction = list(clf.predict(scaled_payload))
-    prediction = [int(x) for x in prediction]
     return jsonify({'prediction': prediction})
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)
