@@ -27,13 +27,14 @@ A Linux virtual machine was created to be the agent to handle the deployment in 
 The Azure pipelines uses a self hosted feature by making use of the git repo to automatically build the YAML file. This YAML file/script builds and deploys the app into our webapp.
 
 This is a successfull prediction after deploying the flask app
-![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/prediction.JPG)
+![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/prediction.jpg)
 
 I have also run locust load tests with 10 users
 ![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/locust.JPG)
 
 # Project plan followed
 The Project deliverables is tracked using the belwo tools-
+
 https://trello.com/b/L3d1vTMr/flask-project-plan
 
 https://github.com/manas1230/flask_devops/blob/main/screenshot/project-management-template.xlsx
