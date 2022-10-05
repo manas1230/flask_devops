@@ -44,3 +44,6 @@ https://youtu.be/9OXAwAQ0xMc
 
 # Project improvements
 This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling. Also the model could be improved.
+
+# Disclaimer
+File paths (in screenshots) may differ slightly due to working on different sessions.
