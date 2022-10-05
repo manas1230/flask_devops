@@ -1,7 +1,7 @@
-FROM python:3.7.3-stretch
+FROM python:3.7.13-stretch
 
 # Working Directory
-WORKDIR ~/.ssh/flask_devops
+WORKDIR .ssh/flask_devops
 
 # Copy source code to working directory
 COPY . app.py /app/
