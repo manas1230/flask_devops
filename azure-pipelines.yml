@@ -13,7 +13,7 @@ variables:
   azureServiceConnectionId: 'mycon'
   
   # TODO: Replace the existing Web App name
-  webAppName: 'asd34fd56my'
+  webAppName: 'abcd123m'
 
   # Environment name
   environmentName: 'flask_devops'
