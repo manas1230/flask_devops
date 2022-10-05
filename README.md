@@ -19,20 +19,22 @@ Next, An azure webapp service is launched to host the flask machine learning app
 ![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/webapp.JPG)
 
 After the web app launched successfully, 
-![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/webapp%20launch.JPG)
+![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/webapp%20launch1.JPG)
 
 A Linux virtual machine was created to be the agent to handle the deployment in Azure devops.
 ![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/deploy%20pipelines.JPG)
 
 The Azure pipelines uses a self hosted feature by making use of the git repo to automatically build the YAML file. This YAML file/script builds and deploys the app into our webapp.
 
-
+This is a successfull prediction after deploying the flask app
+![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/prediction.JPG)
 
 I have also run locust load tests with 10 users
 ![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/locust.JPG)
 
 # Project plan followed
-to be updated
+The Project deliverables is tracked using the belwo tools-
+https://trello.com/b/L3d1vTMr/flask-project-plan
 
 https://github.com/manas1230/flask_devops/blob/main/screenshot/project-management-template.xlsx
 
