@@ -33,14 +33,14 @@ I have also run locust load tests with 10 users
 ![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/locust.JPG)
 
 # Project plan followed
-The Project deliverables is tracked using the belwo tools-
+The Project deliverables is tracked using the below tools-
 
 https://trello.com/b/L3d1vTMr/flask-project-plan
 
 https://github.com/manas1230/flask_devops/blob/main/screenshot/project-management-template.xlsx
 
 # Demo
-to be updated
+https://youtu.be/9OXAwAQ0xMc
 
 # Project improvements
 This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling. Also the model could be improved.
