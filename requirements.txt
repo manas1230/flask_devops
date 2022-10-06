@@ -4,4 +4,4 @@ Flask==2.0.3
 pandas
 scikit-learn==0.20.3
 joblib==1.1.0
-locust
+locustio==0.7.3
