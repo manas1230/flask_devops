@@ -16,7 +16,7 @@ Below is a screenshot of cloning the git repo in azure cloud shell before moving
 ![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/pythonapp%20yml%20pass.JPG)
 
 Next, An azure webapp service is launched to host the flask machine learning app as shown below.
-![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/webapp.JPG)
+![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/webap.JPG)
 
 After the web app launched successfully, 
 ![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/webapp%20launch1.JPG)
