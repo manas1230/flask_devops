@@ -30,7 +30,7 @@ This is a successfull prediction after deploying the flask app
 ![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/prediction.jpg)
 
 I have also run locust load tests with 10 users
-![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/locust.JPG)
+![alt text](https://github.com/manas1230/flask_devops/blob/main/screenshot/locust1.JPG)
 
 # Project plan followed
 The Project deliverables is tracked using the below tools-
