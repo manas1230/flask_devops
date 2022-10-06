@@ -2,7 +2,7 @@ import time
 from locust import HttpUser, between, task
 
 class WebsiteUser(HttpUser):
-    host = "http://abcd123m.azurewebsites.net"
+    host = "https://abcd123mm.azurewebsites.net"
     wait_time = between(5, 15)
 
     @task
